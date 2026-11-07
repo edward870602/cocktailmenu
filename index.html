@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Thanksgiving Desert Cocktails</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&family=Libre+Franklin:ital,wght@0,400;0,500;1,400&display=swap">
+<style>
+/* Layout: one centered menu column over a harvest-paper ground, fall leaves up top, Sonoran horizon at the foot. Single light theme by choice to match the printed card. */
+:root {
+  --paper: #F8EEDF;
+  --ink: #231C18;
+  --accent: #8C2232;
+  --amber: #94561A;
+  --leaf-orange: #C8642A;
+  --leaf-mustard: #D9A23A;
+  --display: 'Josefin Sans', 'Futura', 'Century Gothic', sans-serif;
+  --body: 'Libre Franklin', 'Helvetica Neue', Arial, sans-serif;
+  color-scheme: light;
+}
+* { box-sizing: border-box; }
+html, body { height: 100%; }
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--body);
+  display: flex;
+  flex-direction: column;
+  -webkit-font-smoothing: antialiased;
+}
+.page {
+  position: relative;
+  flex: 1 0 auto;
+  width: 100%;
+  max-width: 640px;
+  margin: 0 auto;
+  padding: clamp(118px, 30vw, 150px) 20px 28px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  text-align: center;
+}
+.corner {
+  position: absolute;
+  top: 0;
+  width: clamp(96px, 26vw, 150px);
+  height: auto;
+}
+.corner.left { left: 0; }
+.corner.right { right: 0; transform: scaleX(-1); }
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+h1 {
+  margin: 0;
+  font-family: var(--display);
+  font-weight: 700;
+  font-size: clamp(34px, 10vw, 60px);
+  line-height: 1;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--accent);
+  text-wrap: balance;
+}
+.sub {
+  margin: 0;
+  font-family: var(--display);
+  font-weight: 400;
+  font-size: clamp(14px, 4.2vw, 22px);
+  letter-spacing: 0.4em;
+  padding-left: 0.4em;
+  text-transform: uppercase;
+}
+.ornament { margin-top: 12px; width: 200px; height: auto; }
+.drinks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  width: 100%;
+}
+.drink {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 7px;
+}
+.drink h2 {
+  margin: 0;
+  font-family: var(--display);
+  font-weight: 700;
+  font-size: clamp(19px, 5.4vw, 23px);
+  line-height: 1.15;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--accent);
+  text-wrap: balance;
+}
+.drink p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.45;
+  text-wrap: balance;
+}
+.drink .tag {
+  margin-top: 2px;
+  font-family: var(--display);
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--amber);
+  border: 1px solid var(--amber);
+  border-radius: 999px;
+  padding: 4px 12px 3px 14px;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+}
+footer p { margin: 0; font-style: italic; font-size: 16px; }
+.horizon {
+  display: block;
+  width: 100%;
+  max-width: 816px;
+  height: auto;
+  margin: 0 auto;
+  flex: none;
+}
+</style>
+</head>
+<body>
+
+<main class="page">
+  <svg class="corner left" viewBox="0 0 180 180" aria-hidden="true">
+    <g transform="translate(40 42) rotate(-20) scale(1.7)"><path d="M0 -22 L5 -12 L12 -15 L10 -5 L20 -7 L15 2 L22 6 L10 9 L11 15 L2 11 L1 22 L-1 22 L-2 11 L-11 15 L-10 9 L-22 6 L-15 2 L-20 -7 L-10 -5 L-12 -15 L-5 -12 Z" fill="#C8642A"/><path d="M0 18 L0 -16 M0 6 L14 -4 M0 6 L-14 -4 M0 11 L16 5 M0 11 L-16 5" stroke="#9C4519" stroke-width="1.1" fill="none" stroke-linecap="round"/></g>
+    <g transform="translate(104 22) rotate(62) scale(1.3)"><path d="M0 -20 C11 -10 11 10 0 20 C-11 10 -11 -10 0 -20 Z" fill="#D9A23A"/><path d="M0 -16 L0 24" stroke="#A97A1F" stroke-width="1.4" fill="none" stroke-linecap="round"/></g>
+    <g transform="translate(22 124) rotate(18) scale(1.25)"><path d="M0 -22 L5 -12 L12 -15 L10 -5 L20 -7 L15 2 L22 6 L10 9 L11 15 L2 11 L1 22 L-1 22 L-2 11 L-11 15 L-10 9 L-22 6 L-15 2 L-20 -7 L-10 -5 L-12 -15 L-5 -12 Z" fill="#8C2232"/><path d="M0 18 L0 -16 M0 6 L14 -4 M0 6 L-14 -4 M0 11 L16 5 M0 11 L-16 5" stroke="#5E1621" stroke-width="1.1" fill="none" stroke-linecap="round"/></g>
+    <g transform="translate(158 26) rotate(104) scale(0.95)"><path d="M0 -20 C11 -10 11 10 0 20 C-11 10 -11 -10 0 -20 Z" fill="#6B4226"/><path d="M0 -16 L0 24" stroke="#4A2D18" stroke-width="1.4" fill="none" stroke-linecap="round"/></g>
+    <g transform="translate(66 158) rotate(-38) scale(0.9)"><path d="M0 -20 C11 -10 11 10 0 20 C-11 10 -11 -10 0 -20 Z" fill="#7C7A45"/><path d="M0 -16 L0 24" stroke="#5A5830" stroke-width="1.4" fill="none" stroke-linecap="round"/></g>
+    <circle cx="84" cy="92" r="5.5" fill="#8C2232"/>
+    <circle cx="95" cy="99" r="5.5" fill="#8C2232"/>
+    <circle cx="82" cy="104" r="5.5" fill="#8C2232"/>
+  </svg>
+  <svg class="corner right" viewBox="0 0 180 180" aria-hidden="true">
+    <g transform="translate(40 42) rotate(-20) scale(1.7)"><path d="M0 -22 L5 -12 L12 -15 L10 -5 L20 -7 L15 2 L22 6 L10 9 L11 15 L2 11 L1 22 L-1 22 L-2 11 L-11 15 L-10 9 L-22 6 L-15 2 L-20 -7 L-10 -5 L-12 -15 L-5 -12 Z" fill="#D9A23A"/><path d="M0 18 L0 -16 M0 6 L14 -4 M0 6 L-14 -4 M0 11 L16 5 M0 11 L-16 5" stroke="#A97A1F" stroke-width="1.1" fill="none" stroke-linecap="round"/></g>
+    <g transform="translate(104 22) rotate(62) scale(1.3)"><path d="M0 -20 C11 -10 11 10 0 20 C-11 10 -11 -10 0 -20 Z" fill="#C8642A"/><path d="M0 -16 L0 24" stroke="#9C4519" stroke-width="1.4" fill="none" stroke-linecap="round"/></g>
+    <g transform="translate(22 124) rotate(18) scale(1.25)"><path d="M0 -22 L5 -12 L12 -15 L10 -5 L20 -7 L15 2 L22 6 L10 9 L11 15 L2 11 L1 22 L-1 22 L-2 11 L-11 15 L-10 9 L-22 6 L-15 2 L-20 -7 L-10 -5 L-12 -15 L-5 -12 Z" fill="#6B4226"/><path d="M0 18 L0 -16 M0 6 L14 -4 M0 6 L-14 -4 M0 11 L16 5 M0 11 L-16 5" stroke="#4A2D18" stroke-width="1.1" fill="none" stroke-linecap="round"/></g>
+    <g transform="translate(158 26) rotate(104) scale(0.95)"><path d="M0 -20 C11 -10 11 10 0 20 C-11 10 -11 -10 0 -20 Z" fill="#8C2232"/><path d="M0 -16 L0 24" stroke="#5E1621" stroke-width="1.4" fill="none" stroke-linecap="round"/></g>
+    <g transform="translate(66 158) rotate(-38) scale(0.9)"><path d="M0 -20 C11 -10 11 10 0 20 C-11 10 -11 -10 0 -20 Z" fill="#7C7A45"/><path d="M0 -16 L0 24" stroke="#5A5830" stroke-width="1.4" fill="none" stroke-linecap="round"/></g>
+    <circle cx="84" cy="92" r="5.5" fill="#8C2232"/>
+    <circle cx="95" cy="99" r="5.5" fill="#8C2232"/>
+    <circle cx="82" cy="104" r="5.5" fill="#8C2232"/>
+  </svg>
+
+  <header>
+    <h1>Thanksgiving</h1>
+    <p class="sub">Desert Cocktail Menu</p>
+    <svg class="ornament" viewBox="0 0 240 24" fill="none" stroke="#8C2232" stroke-width="1.5" stroke-linecap="round" aria-hidden="true">
+      <line x1="0" y1="12" x2="92" y2="12"/>
+      <line x1="148" y1="12" x2="240" y2="12"/>
+      <path d="M120 3 C128 7 128 17 120 21 C112 17 112 7 120 3 Z"/>
+      <line x1="120" y1="6" x2="120" y2="18"/>
+      <path d="M108 12 C104 8 99 8 96 12 C99 16 104 16 108 12 Z"/>
+      <path d="M132 12 C136 8 141 8 144 12 C141 16 136 16 132 12 Z"/>
+    </svg>
+  </header>
+
+  <div class="drinks">
+    <section class="drink">
+      <h2>Lake Havasu Iced Tea</h2>
+      <p>Vodka&nbsp;· gin&nbsp;· rum&nbsp;· tequila&nbsp;· triple&nbsp;sec&nbsp;· lemon&nbsp;· cola</p>
+      <span class="tag">Five spirits</span>
+    </section>
+    <section class="drink">
+      <h2>Monsoon Mojito</h2>
+      <p>White rum · mint · lime · club soda</p>
+    </section>
+    <section class="drink">
+      <h2>AZ Mule</h2>
+      <p>Vodka · ginger beer · lime</p>
+    </section>
+    <section class="drink">
+      <h2>Gila &amp; Tonic</h2>
+      <p>Gin · tonic · lime</p>
+    </section>
+    <section class="drink">
+      <h2>Saguarita</h2>
+      <p>Tequila · triple sec · lime</p>
+    </section>
+  </div>
+
+  <footer>
+    <svg width="120" height="12" viewBox="0 0 120 12" fill="none" stroke="#8C2232" stroke-width="1.5" stroke-linecap="round" aria-hidden="true">
+      <line x1="0" y1="6" x2="48" y2="6"/>
+      <path d="M60 1 L65 6 L60 11 L55 6 Z"/>
+      <line x1="72" y1="6" x2="120" y2="6"/>
+    </svg>
+    <p>Cheers &amp; Happy Thanksgiving</p>
+  </footer>
+</main>
+
+<svg class="horizon" viewBox="0 850 816 206" aria-hidden="true">
+  <circle cx="408" cy="934" r="58" fill="#F2B66D"/>
+  <path d="M0 906 L54 906 L74 880 L176 880 L196 906 L330 910 C420 902 500 900 570 906 L626 906 L648 872 L746 872 L766 906 L816 906 L816 1056 L0 1056 Z" fill="#EDCFAF"/>
+  <path d="M0 958 C130 934 250 950 370 944 C500 938 620 928 816 948 L816 1056 L0 1056 Z" fill="#E0AE84"/>
+  <g stroke="#6F6A3C" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M108 1004 L108 868" stroke-width="16"/>
+    <path d="M108 952 C86 952 86 948 86 914" stroke-width="12"/>
+    <path d="M108 930 C128 930 128 926 128 896" stroke-width="12"/>
+    <path d="M44 1010 L44 962" stroke-width="10"/>
+    <path d="M44 990 C33 990 32 986 32 974" stroke-width="8"/>
+    <path d="M716 1008 L716 884" stroke-width="15"/>
+    <path d="M716 958 C737 958 738 952 738 920" stroke-width="11"/>
+    <path d="M716 936 C699 936 698 930 698 906" stroke-width="11"/>
+    <path d="M770 1012 L770 954" stroke-width="11"/>
+    <path d="M770 984 C783 984 784 980 784 966" stroke-width="8"/>
+  </g>
+  <path d="M0 1012 C200 996 420 1006 600 999 C700 996 760 1001 816 1005 L816 1056 L0 1056 Z" fill="#CB8D60"/>
+</svg>
+
+</body>
+</html>
